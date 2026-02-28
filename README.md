@@ -10,9 +10,51 @@ A minimal UIKit app that shows a grid of placeholder cells (grey boxes), a detai
 - **Networking**: `DogPhotosService` is present but not implemented (stub only).
 - **Image loading**: `ImageLoader` has a stubbed `loadImage(url:completion:)` for you to implement (with caching and cancellation).
 
-## How to run
+## Getting started
 
-Open `DogPhotosApp.xcodeproj` in Xcode and run on a simulator or device. The app builds and shows the grid and navigation; no API keys or setup required.
+### Prerequisites
+
+- **Xcode 16+** installed from the App Store
+- An **Anthropic API key** (provided by your interviewer)
+
+### Option A: Automated setup (recommended)
+
+Run the setup script — it will install Claude Code CLI (if needed) and configure your API key:
+
+```bash
+./setup.sh <your-api-key>
+```
+
+Or run it without arguments and paste the key when prompted:
+
+```bash
+./setup.sh
+```
+
+Then start Claude Code:
+
+```bash
+source .env && claude
+```
+
+### Option B: Manual setup
+
+1. Install Claude Code CLI:
+
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+2. Export your API key and launch:
+
+```bash
+export ANTHROPIC_API_KEY=<your-api-key>
+claude
+```
+
+### Running the app
+
+Open `DogPhotosApp.xcodeproj` in Xcode and run on a simulator or device. The app builds and shows the grid and navigation; no additional API keys or setup required.
 
 ## Interview exercise
 
