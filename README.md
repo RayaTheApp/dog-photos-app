@@ -65,22 +65,26 @@ We’d like you to add functionality to this app and fix any bugs you find. The 
 Implement the following, in whatever order you think is most important:
 
 1. **Load images from API**  
-   Use the dog.ceo API to fetch photo URLs and display the images in the grid and detail view.
 
-2. **Pagination**  
-   Either a “Load more” button or infinite scroll, with an activity indicator as the loading state.
+2. **Breed Parsing + Search**  
 
-3. **Pull to refresh**  
-   Pull-to-refresh should fetch a new batch of dog photos.
+3. **Pagination**  
 
 4. **ImageLoader + caching**  
-   Implement `ImageLoader` with caching and request cancellation.
 
-5. **State machine & clean ViewModel**  
-   Refine the view model so it exposes clear outputs: `items`, `isLoading`, `isRefreshing`, `isLoadingMore`, `error`.
+5. **ViewModel State Cleanup**  
 
-6. **Long-press preview**  
-   Complete the long-press gesture so it shows a fullscreen preview of the photo while pressed and dismisses when the user releases.
+6. **Error Handling**  
+
+7. **Pull to refresh**  
+
+8. **Empty States**  
+
+9. **Tests**  
+
+10. **Long-press preview**  
+
+11. **Logging**  
 
 ---
 
