@@ -21,7 +21,7 @@ A minimal UIKit app for a dog show interview exercise. Attendees can browse dog 
 
 Open `DogPhotosApp.xcodeproj` in Xcode and run on a simulator or device. The app builds and shows the breed list; tap a breed to see the grid. No API keys or setup required.
 
-### API (stub for you to integrate)
+### API
 
 Dog photos can be fetched from:
 
