@@ -19,7 +19,10 @@ final class PhotoGridViewController: UIViewController {
     return l
   }()
   
-  init(viewModel: PhotoGridViewModel = PhotoGridViewModel(), imageLoader: ImageLoaderProtocol = ImageLoader()) {
+  private let breedName: String?
+  
+  init(breedName: String? = nil, viewModel: PhotoGridViewModel = PhotoGridViewModel(), imageLoader: ImageLoaderProtocol = ImageLoader()) {
+    self.breedName = breedName
     self.viewModel = viewModel
     self.imageLoader = imageLoader
     super.init(nibName: nil, bundle: nil)
@@ -31,7 +34,7 @@ final class PhotoGridViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    title = "Dog Photos"
+    title = breedName ?? "Dog Photos"
     view.backgroundColor = .systemBackground
     setupCollectionView()
     setupLongPress()

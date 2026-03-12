@@ -2,15 +2,11 @@
 //  AppDelegate.swift
 //  DogPhotosApp
 //
-//  Created by Sarah Lee on 2/25/26.
-//
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-  
-  
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.

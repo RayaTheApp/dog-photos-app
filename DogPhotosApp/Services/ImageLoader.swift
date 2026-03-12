@@ -2,12 +2,6 @@
 //  ImageLoader.swift
 //  DogPhotosApp
 //
-//  Load images from URLs with caching and request cancellation.
-//  Implement this type so that:
-//  - In-flight requests for the same URL are coalesced or cancelled as needed.
-//  - Loaded images are cached (e.g. in-memory) to avoid redundant network calls.
-//  - Callers can cancel a load (e.g. when a cell is reused).
-//
 
 import UIKit
 

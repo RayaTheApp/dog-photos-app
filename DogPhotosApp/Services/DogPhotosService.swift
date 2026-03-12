@@ -2,10 +2,6 @@
 //  DogPhotosService.swift
 //  DogPhotosApp
 //
-//  Networking service for fetching dog photos.
-//  API: https://dog.ceo/api/breeds/image/random/50
-//  (Returns random images each time; use count and page for pagination.)
-//
 
 import Foundation
 
@@ -25,7 +21,6 @@ protocol DogPhotosServiceProtocol: AnyObject {
 final class DogPhotosService: DogPhotosServiceProtocol {
   
   func fetchPhotos(count: Int, page: Int, completion: @escaping (Result<[DogPhotoItem], Error>) -> Void) {
-    // TODO: Implement. URL: https://dog.ceo/api/breeds/image/random/{count}
     completion(.failure(DogPhotosServiceError.notImplemented))
   }
 }

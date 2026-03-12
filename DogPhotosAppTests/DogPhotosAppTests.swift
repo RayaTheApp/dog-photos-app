@@ -2,8 +2,6 @@
 //  DogPhotosAppTests.swift
 //  DogPhotosAppTests
 //
-//  Created by Sarah Lee on 2/25/26.
-//
 
 import Testing
 @testable import DogPhotosApp

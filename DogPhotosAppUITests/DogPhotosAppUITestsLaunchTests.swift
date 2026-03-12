@@ -2,8 +2,6 @@
 //  DogPhotosAppUITestsLaunchTests.swift
 //  DogPhotosAppUITests
 //
-//  Created by Sarah Lee on 2/25/26.
-//
 
 import XCTest
 
