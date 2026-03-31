@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		11B408EC2F4FB23300F4801D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B408CD2F4FB23100F4801D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B408D42F4FB23100F4801D;
+			remoteInfo = DogPhotosApp;
+		};
+		11B408F62F4FB23300F4801D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B408CD2F4FB23100F4801D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B408D42F4FB23100F4801D;
+			remoteInfo = DogPhotosApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11B408D52F4FB23100F4801D /* DogPhotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogPhotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B408EB2F4FB23300F4801D /* DogPhotosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogPhotosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B408F52F4FB23300F4801D /* DogPhotosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogPhotosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		11B408FD2F4FB23300F4801D /* Exceptions for "DogPhotosApp" folder in "DogPhotosApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 11B408D42F4FB23100F4801D /* DogPhotosApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		11B408D72F4FB23100F4801D /* DogPhotosApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				11B408FD2F4FB23300F4801D /* Exceptions for "DogPhotosApp" folder in "DogPhotosApp" target */,
+			);
+			path = DogPhotosApp;
+			sourceTree = "<group>";
+		};
+		11B408EE2F4FB23300F4801D /* DogPhotosAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DogPhotosAppTests;
+			sourceTree = "<group>";
+		};
+		11B408F82F4FB23300F4801D /* DogPhotosAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DogPhotosAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B408D22F4FB23100F4801D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B408E82F4FB23300F4801D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B408F22F4FB23300F4801D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B408CC2F4FB23100F4801D = {
+			isa = PBXGroup;
+			children = (
+				11B408D72F4FB23100F4801D /* DogPhotosApp */,
+				11B408EE2F4FB23300F4801D /* DogPhotosAppTests */,
+				11B408F82F4FB23300F4801D /* DogPhotosAppUITests */,
+				11B408D62F4FB23100F4801D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B408D62F4FB23100F4801D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B408D52F4FB23100F4801D /* DogPhotosApp.app */,
+				11B408EB2F4FB23300F4801D /* DogPhotosAppTests.xctest */,
+				11B408F52F4FB23300F4801D /* DogPhotosAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B408D42F4FB23100F4801D /* DogPhotosApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B408FE2F4FB23300F4801D /* Build configuration list for PBXNativeTarget "DogPhotosApp" */;
+			buildPhases = (
+				11B408D12F4FB23100F4801D /* Sources */,
+				11B408D22F4FB23100F4801D /* Frameworks */,
+				11B408D32F4FB23100F4801D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				11B408D72F4FB23100F4801D /* DogPhotosApp */,
+			);
+			name = DogPhotosApp;
+			packageProductDependencies = (
+			);
+			productName = DogPhotosApp;
+			productReference = 11B408D52F4FB23100F4801D /* DogPhotosApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B408EA2F4FB23300F4801D /* DogPhotosAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B409032F4FB23300F4801D /* Build configuration list for PBXNativeTarget "DogPhotosAppTests" */;
+			buildPhases = (
+				11B408E72F4FB23300F4801D /* Sources */,
+				11B408E82F4FB23300F4801D /* Frameworks */,
+				11B408E92F4FB23300F4801D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B408ED2F4FB23300F4801D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11B408EE2F4FB23300F4801D /* DogPhotosAppTests */,
+			);
+			name = DogPhotosAppTests;
+			packageProductDependencies = (
+			);
+			productName = DogPhotosAppTests;
+			productReference = 11B408EB2F4FB23300F4801D /* DogPhotosAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11B408F42F4FB23300F4801D /* DogPhotosAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B409062F4FB23300F4801D /* Build configuration list for PBXNativeTarget "DogPhotosAppUITests" */;
+			buildPhases = (
+				11B408F12F4FB23300F4801D /* Sources */,
+				11B408F22F4FB23300F4801D /* Frameworks */,
+				11B408F32F4FB23300F4801D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B408F72F4FB23300F4801D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				11B408F82F4FB23300F4801D /* DogPhotosAppUITests */,
+			);
+			name = DogPhotosAppUITests;
+			packageProductDependencies = (
+			);
+			productName = DogPhotosAppUITests;
+			productReference = 11B408F52F4FB23300F4801D /* DogPhotosAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B408CD2F4FB23100F4801D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					11B408D42F4FB23100F4801D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					11B408EA2F4FB23300F4801D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 11B408D42F4FB23100F4801D;
+					};
+					11B408F42F4FB23300F4801D = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 11B408D42F4FB23100F4801D;
+					};
+				};
+			};
+			buildConfigurationList = 11B408D02F4FB23100F4801D /* Build configuration list for PBXProject "DogPhotosApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B408CC2F4FB23100F4801D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11B408D62F4FB23100F4801D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B408D42F4FB23100F4801D /* DogPhotosApp */,
+				11B408EA2F4FB23300F4801D /* DogPhotosAppTests */,
+				11B408F42F4FB23300F4801D /* DogPhotosAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B408D32F4FB23100F4801D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B408E92F4FB23300F4801D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B408F32F4FB23300F4801D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B408D12F4FB23100F4801D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B408E72F4FB23300F4801D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B408F12F4FB23300F4801D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B408ED2F4FB23300F4801D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B408D42F4FB23100F4801D /* DogPhotosApp */;
+			targetProxy = 11B408EC2F4FB23300F4801D /* PBXContainerItemProxy */;
+		};
+		11B408F72F4FB23300F4801D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B408D42F4FB23100F4801D /* DogPhotosApp */;
+			targetProxy = 11B408F62F4FB23300F4801D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B408FF2F4FB23300F4801D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B453Y4XGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogPhotosApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raya.DogPhotosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B409002F4FB23300F4801D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B453Y4XGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DogPhotosApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raya.DogPhotosApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11B409012F4FB23300F4801D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B453Y4XGP2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B409022F4FB23300F4801D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B453Y4XGP2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B409042F4FB23300F4801D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B453Y4XGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raya.DogPhotosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogPhotosApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogPhotosApp";
+			};
+			name = Debug;
+		};
+		11B409052F4FB23300F4801D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B453Y4XGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raya.DogPhotosAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogPhotosApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DogPhotosApp";
+			};
+			name = Release;
+		};
+		11B409072F4FB23300F4801D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B453Y4XGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raya.DogPhotosAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogPhotosApp;
+			};
+			name = Debug;
+		};
+		11B409082F4FB23300F4801D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B453Y4XGP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.raya.DogPhotosAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogPhotosApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B408D02F4FB23100F4801D /* Build configuration list for PBXProject "DogPhotosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B409012F4FB23300F4801D /* Debug */,
+				11B409022F4FB23300F4801D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B408FE2F4FB23300F4801D /* Build configuration list for PBXNativeTarget "DogPhotosApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B408FF2F4FB23300F4801D /* Debug */,
+				11B409002F4FB23300F4801D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B409032F4FB23300F4801D /* Build configuration list for PBXNativeTarget "DogPhotosAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B409042F4FB23300F4801D /* Debug */,
+				11B409052F4FB23300F4801D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B409062F4FB23300F4801D /* Build configuration list for PBXNativeTarget "DogPhotosAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B409072F4FB23300F4801D /* Debug */,
+				11B409082F4FB23300F4801D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B408CD2F4FB23100F4801D /* Project object */;
+}
